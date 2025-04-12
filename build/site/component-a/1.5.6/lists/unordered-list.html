@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Module One Overview :: Docs Site</title>
+    <title>Unordered Lists :: Docs Site</title>
     <meta name="generator" content="Antora 3.1.10">
     <link rel="stylesheet" href="../../../_/css/site.css">
   </head>
@@ -47,25 +47,42 @@
   </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="component-b" data-version="2.5">
+<div class="nav-container" data-component="component-a" data-version="1.5.6">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
     <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
-    <h3 class="title"><a href="../index.html">Component B</a></h3>
+    <h3 class="title"><a href="../inline-text-formatting.html">Component A</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../index.html">Welcome</a>
+    <a class="nav-link" href="../inline-text-formatting.html">Inline Text Formatting</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../special-characters.html">Special Characters and Symbols</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../admonition.html">Admonition</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../sidebar.html">Sidebar</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../ui-macros.html">User Interface Macros</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Lists</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="ordered-list.html">Ordered Lists</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="unordered-list.html">Unordered Lists</a>
   </li>
 </ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="overview.html">Module One Overview</a>
   </li>
 </ul>
   </li>
@@ -74,23 +91,23 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">Component B</span>
-    <span class="version">2.5-beta.1</span>
+    <span class="title">Component A</span>
+    <span class="version">1.5.6</span>
   </div>
   <ul class="components">
-    <li class="component">
-      <div class="title"><a href="../../../component-a/1.5.6/inline-text-formatting.html">Component A</a></div>
+    <li class="component is-current">
+      <div class="title"><a href="../inline-text-formatting.html">Component A</a></div>
       <ul class="versions">
-        <li class="version is-latest">
-          <a href="../../../component-a/1.5.6/inline-text-formatting.html">1.5.6</a>
+        <li class="version is-current is-latest">
+          <a href="../inline-text-formatting.html">1.5.6</a>
         </li>
       </ul>
     </li>
-    <li class="component is-current">
-      <div class="title"><a href="../index.html">Component B</a></div>
+    <li class="component">
+      <div class="title"><a href="../../../component-b/2.5/index.html">Component B</a></div>
       <ul class="versions">
-        <li class="version is-current is-latest">
-          <a href="../index.html">2.5-beta.1</a>
+        <li class="version is-latest">
+          <a href="../../../component-b/2.5/index.html">2.5-beta.1</a>
         </li>
       </ul>
     </li>
@@ -102,56 +119,93 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="../index.html" class="home-link"></a>
+  <a href="../../../component-b/2.5/index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../index.html">Component B</a></li>
-    <li><a href="overview.html">Module One Overview</a></li>
+    <li><a href="../inline-text-formatting.html">Component A</a></li>
+    <li>Lists</li>
+    <li><a href="unordered-list.html">Unordered Lists</a></li>
   </ul>
 </nav>
-<div class="edit-this-page"><a href="https://github.com/rickey-alok/site-2/edit/main/docs/modules/module-one/pages/overview.adoc">Edit this Page</a></div>
+<div class="edit-this-page"><a href="https://github.com/rickey-alok/site-1/edit/main/modules/ROOT/pages/lists/unordered-list.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Module One Overview</h1>
-<div id="preamble">
+<h1 class="page">Unordered Lists</h1>
+<div class="sect1">
+<h2 id="_unordered_list"><a class="anchor" href="#_unordered_list"></a>Unordered list</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>This is version <strong>2.5-beta.1</strong> of Module One in Component B.</p>
+<div class="listingblock">
+<div class="title">Unordered list with title</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">.Optional title of list
+* Item A
+* Item B
+* Item C</code></pre>
+</div>
+</div>
+<div class="ulist">
+<div class="title">Optional title of list</div>
+<ul>
+<li>
+<p>Item A</p>
+</li>
+<li>
+<p>Item B</p>
+</li>
+<li>
+<p>Item C</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_page_source"><a class="anchor" href="#_page_source"></a>Page source</h2>
+<h2 id="_nested_unordered_list"><a class="anchor" href="#_nested_unordered_list"></a>Nested unordered list</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>This page is sourced from <em class="path">demo-component-b/docs/modules/module-one/pages/overview.adoc</em>.</p>
+<div class="listingblock">
+<div class="title">Unordered list with nested levels</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">* Item A
+* Item B
+** Item B1
+** Item B2
+*** Sub-item of B2
+* Item C</code></pre>
 </div>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Item A</p>
+</li>
+<li>
+<p>Item B</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Item B1</p>
+</li>
+<li>
+<p>Item B2</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Sub-item of B2</p>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_cross_reference_syntax_to_target_this_page"><a class="anchor" href="#_cross_reference_syntax_to_target_this_page"></a>Cross reference syntax to target this page</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>To create a cross reference <strong>to this page from another page in Module One</strong>, the xref syntax would be <code>xref:overview.adoc[]</code>.</p>
+</li>
+</ul>
 </div>
-<div class="paragraph">
-<p>To create a cross reference <strong>to this page from a page in the ROOT module of Component B</strong>, the xref syntax would be <code>xref:module-one:overview.adoc[]</code>.</p>
-</div>
-<div class="sect2">
-<h3 id="_always_target_the_latest_version_of_this_page"><a class="anchor" href="#_always_target_the_latest_version_of_this_page"></a>Always target the latest version of this page</h3>
-<div class="paragraph">
-<p>To create a cross reference <strong>to the latest version of this page from a page in Component A</strong>, the xref syntax would be <code>xref:component-b:module-one:overview.adoc[]</code>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_target_a_specific_version_of_this_page"><a class="anchor" href="#_target_a_specific_version_of_this_page"></a>Target a specific version of this page</h3>
-<div class="paragraph">
-<p>To create a cross reference <strong>to version 1.0 of this page from a page in Component A</strong>, the xref syntax would be <code>xref:1.0@component-b:module-one:overview.adoc[]</code>.</p>
-</div>
+</li>
+<li>
+<p>Item C</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
