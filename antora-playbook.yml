@@ -4,9 +4,9 @@ site:
 content:
   sources:
   - url: https://github.com/rickey-alok/site-1.git
-    branches: main
-  - url: https://github.com/rickey-alok/site-2.git
     branches: [main]
+  - url: https://github.com/rickey-alok/site-2.git
+    branches: [v1.0]
     start_path: docs
 ui:
   bundle:
