@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>User Interface Macros :: Blue Planet ROA</title>
+    <title>Sidebar :: Blue Planet ROA</title>
     <meta name="generator" content="Antora 3.1.10">
     <link rel="stylesheet" href="../../_/css/site.css">
   </head>
@@ -47,13 +47,13 @@
   </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="component-a" data-version="main">
+<div class="nav-container" data-component="bp-roa-user-guide" data-version="main">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
     <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
-    <h3 class="title"><a href="inline-text-formatting.html">Component A</a></h3>
+    <h3 class="title"><a href="inline-text-formatting.html">ROA User Guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -66,10 +66,10 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="admonition.html">Admonition</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="sidebar.html">Sidebar</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="ui-macros.html">User Interface Macros</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -91,26 +91,26 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">Component A</span>
+    <span class="title">ROA User Guide</span>
     <span class="version">main</span>
   </div>
   <ul class="components">
+    <li class="component">
+      <div class="title"><a href="../../roa-release-note/v1.0/index.html">ROA Release Notes</a></div>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../roa-release-note/v1.0/index.html">v1.0</a>
+        </li>
+      </ul>
+    </li>
     <li class="component is-current">
-      <div class="title"><a href="inline-text-formatting.html">Component A</a></div>
+      <div class="title"><a href="inline-text-formatting.html">ROA User Guide</a></div>
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="inline-text-formatting.html">main</a>
         </li>
         <li class="version">
           <a href="../v1.0/inline-text-formatting.html">v1.0</a>
-        </li>
-      </ul>
-    </li>
-    <li class="component">
-      <div class="title"><a href="../../component-b/v1.0/index.html">Component B</a></div>
-      <ul class="versions">
-        <li class="version is-latest">
-          <a href="../../component-b/v1.0/index.html">v1.0</a>
         </li>
       </ul>
     </li>
@@ -122,141 +122,48 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="../../component-b/v1.0/index.html" class="home-link"></a>
+  <a href="inline-text-formatting.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="inline-text-formatting.html">Component A</a></li>
-    <li><a href="ui-macros.html">User Interface Macros</a></li>
+    <li><a href="inline-text-formatting.html">ROA User Guide</a></li>
+    <li><a href="sidebar.html">Sidebar</a></li>
   </ul>
 </nav>
 <div class="page-versions">
   <button class="version-menu-toggle" title="Show other versions of page">main</button>
   <div class="version-menu">
-    <a class="version is-current" href="ui-macros.html">main</a>
-    <a class="version" href="../v1.0/ui-macros.html">v1.0</a>
+    <a class="version is-current" href="sidebar.html">main</a>
+    <a class="version" href="../v1.0/sidebar.html">v1.0</a>
   </div>
 </div>
-<div class="edit-this-page"><a href="https://github.com/rickey-alok/site-1/edit/main/modules/ROOT/pages/ui-macros.adoc">Edit this Page</a></div>
+<div class="edit-this-page"><a href="https://github.com/rickey-alok/site-1/edit/main/modules/ROOT/pages/sidebar.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">User Interface Macros</h1>
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Asciidoctor has three user interface (UI) macros:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Button <code>btn:[]</code></p>
-</li>
-<li>
-<p>Keyboard <code>kbd:[]</code></p>
-</li>
-<li>
-<p>Menu <code>menu:[]</code></p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-The <code>:experimental:</code> attribute must be set in the document header, component version descriptor (<em>antora.yml</em>), or globally in your Antora playbook (<em>antora-playbook.yml</em>) to enable UI macros.
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
+<h1 class="page">Sidebar</h1>
 <div class="sect1">
-<h2 id="_button"><a class="anchor" href="#_button"></a>Button</h2>
+<h2 id="_sidebar_block"><a class="anchor" href="#_sidebar_block"></a>Sidebar block</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Communicate that a user should press a button with the button macro.</p>
+<p>A sidebar can be titled and contain any type of content such as source code and images.</p>
 </div>
 <div class="listingblock">
-<div class="title">Button UI macro</div>
+<div class="title">Sidebar</div>
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">Press the btn:[Submit] button when you are finished the survey.
-
-Select a file in the file navigator and click btn:[Open].</code></pre>
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">.Optional title of sidebar
+****
+Sidebars are used to visually separate short, auxiliary bits of content that supplement the main text.
+****</code></pre>
 </div>
 </div>
-<div class="exampleblock">
-<div class="title">Result</div>
+<div class="sidebarblock">
 <div class="content">
+<div class="title">Optional title of sidebar</div>
 <div class="paragraph">
-<p>Press the btn:[Submit] button when you are finished the survey.</p>
-</div>
-<div class="paragraph">
-<p>Select a file in the file navigator and click btn:[Open].</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_keyboard"><a class="anchor" href="#_keyboard"></a>Keyboard</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Create keyboard shortcuts with the keyboard macro.</p>
-</div>
-<div class="listingblock">
-<div class="title">Keyboard UI macro</div>
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">Press kbd:[esc] to exit insert mode.
-
-Use the shortcut kbd:[Ctrl+T] to open a new tab in your browser.
-
-kbd:[Ctrl+Shift+N] will open a new incognito window.</code></pre>
-</div>
-</div>
-<div class="exampleblock">
-<div class="title">Result</div>
-<div class="content">
-<div class="paragraph">
-<p>Press kbd:[esc] to exit insert mode.</p>
-</div>
-<div class="paragraph">
-<p>Use the shortcut kbd:[Ctrl+T] to open a new tab in your browser.</p>
-</div>
-<div class="paragraph">
-<p>kbd:[Ctrl+Shift+N] will open a new incognito window.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_menu"><a class="anchor" href="#_menu"></a>Menu</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Show readers how to select a menu item with the menu macro.</p>
-</div>
-<div class="listingblock">
-<div class="title">Menu UI macro</div>
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">To save the file, select menu:File[Save].
-
-Select menu:View[Zoom &gt; Reset] to reset the zoom level to the default setting.</code></pre>
-</div>
-</div>
-<div class="exampleblock">
-<div class="title">Result</div>
-<div class="content">
-<div class="paragraph">
-<p>To save the file, select menu:File[Save].</p>
-</div>
-<div class="paragraph">
-<p>Select menu:View[Zoom &gt; Reset] to reset the zoom level to the default setting.</p>
+<p>Sidebars are used to visually separate short, auxiliary bits of content that supplement the main text.</p>
 </div>
 </div>
 </div>

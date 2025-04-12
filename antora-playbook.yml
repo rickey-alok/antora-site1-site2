@@ -4,10 +4,10 @@ site:
 content:
   sources:
   - url: https://github.com/rickey-alok/site-2.git
-    branches: [v1.0]
+    branches: [25.04,25.12]
     start_path: docs
   - url: https://github.com/rickey-alok/site-1.git
-    branches: [main,v1.0]
+    branches: [25.04,25.12]
 
 ui:
   bundle:
