@@ -1,12 +1,12 @@
 site:
   title: Docs Site
-  # start_page: component-b::index.adoc
+  start_page: component-b::index.adoc
 content:
   sources:
   - url: https://github.com/rickey-alok/site-1.git
     branches: [main]
   - url: https://github.com/rickey-alok/site-2.git
-    branches: [v1.0]
+    branches: [main]
     start_path: docs
 ui:
   bundle:
